@@ -1,0 +1,431 @@
+body
+{
+	background-color: #263238;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	dont-size: 20px;
+	
+}
+
+h1.logo
+{
+	width: 100%;
+	height: 50px;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 25px 0px 15px 0px;
+	letter-spacing: 5px;
+	border-bottom: 4px solid #0d77d4;
+	border-top: 4px solid #0d77d4;
+}
+
+nav
+{
+	background-color: #0d77d4;
+	text-align: center;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 36px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #0033FF;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px dashed #0033FF;
+}
+
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: #0a44a1;
+}
+
+.categories
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	color: white;
+	text-align: center;
+	padding: 0px;
+}
+
+h1
+{
+	font-size: 46px;
+	font-weight: 400;
+	color: #0d77d4;
+	margin-bottom: 20px;
+}
+
+h1.witaj
+{
+	border-top: 3px solid #0d77d4;
+	padding-top: 20px;
+}
+
+.najnowsze-projekty-unity
+{
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 4px solid #0d77d4;
+	border-bottom: 4px solid #0d77d4;
+	font-weight: 600;
+}
+
+.najnowsze-projekty-unity a
+{
+	opacity: 0.9;
+	weight: 300px;
+}
+
+.najnowsze-projekty-unity a:hover
+{
+	opacity: 3.5;
+	weight: 320px;
+}
+
+figure
+{
+	margin: 8px;
+	padding: 0px;
+}
+
+figcaption
+{
+	margin-top: 8px;
+	padding: 0px;
+}
+
+.o-mnie
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	color: white;
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 50px;                      ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	padding-left: 30px;
+
+}
+
+h1.ja
+{
+	padding-bottom: 3px;
+	padding-top: 20px;
+	border-top: 3px solid #0d77d4;
+	text-align: center;
+}
+
+p.omnie
+{
+	padding-bottom: 75px;
+	padding-top: 0px;
+	border-bottom: 3px solid #0d77d4;
+	font-size: 18px;
+}
+
+p.info
+{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #0d77d4;
+	
+}
+
+#aboutme
+{
+	margin-top: 45px;
+	background-color: #191d21;
+}
+
+h1.wspolpraca
+{
+	border-top: 3px solid #0d77d4;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	color: #0d77d4;
+}
+
+.wspolpraca
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	
+}
+
+p.wspolpraca
+{
+	padding-top: 0px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #0d77d4;
+}
+
+.rodzaje
+{
+	background-color: #191d21;
+	padding: 10px;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+
+.rodzaje:hover
+{
+	padding: 10px;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 10px;
+	border-bottom: solid #0d77d4;
+	border-top: solid #0d77d4;
+	border-right: solid #0d77d4;
+	border-left: solid #0d77d4;
+}
+
+.rodzajetxt
+{
+	display: inline-block;
+	width: 783px;	
+}
+
+h2
+{
+	font-size: 25px;
+	font-weight: 400;
+	color: #39a5f1;
+}
+
+.contact
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+h1.proj-unity
+{
+	margin-top: 90px;
+}
+
+.kontakt-z-autorem
+{
+	border-top: solid 3px #0d77d4;
+	padding-top: 18px;
+}
+
+p.contacter
+{
+	padding-bottom:65px;
+}
+
+.bluebutton
+{
+	background-color: #0d77d4;
+	padding: 15px;
+	color: #efefef;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 8px;
+	min-width: 300px;
+
+	
+}
+
+.bluebutton:hover
+{
+	border-bottom: solid 3px #0a55a2;
+	border-top: solid 3px #0a55a2;
+	border-right: solid 3px #0a55a2;
+	border-left: solid 3px #0a55a2;
+}
+
+.socials
+{
+	width:100%;
+	text-align: center;
+	background-color: #191d21;
+}
+
+.socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+	color: white;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+	color: white;
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+	color: white;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+	color: white;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+	color: white;
+}
+
+.informacja
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+	
+}
+
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.west
+{
+	float: left;
+	width: 750px;
+	padding: 20px;
+	text-align: justify;
+	color: white;
+}
+
+.east
+{
+	float: left;
+	width: 170px;
+	padding: 20px;
+}
+
+.west h1
+{
+	font-size: 32px;
+	font-weight: 350;
+	color: #39a5f1;
+	margin-bottom: 20px;
+}
+
+.pasja-programowania-logo
+{
+	width: 100px;
+	float: left;
+	padding-right: 30px;
+}
+
+////////////blog//////////////////////////////////////////////////////blog////////////////////////blog/////////////////blog/////////////////blog////////////////////////////
+////////////////////////////blog/////////////////////////////////////////////blog/////////////////////blog///////////////////blog/////////////////////////////////
+
+.noweposty
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 46px;
+	margin-bottom: 46px;
+	width: 950px;
+	color: white;
+	text-align: center;
+	padding: 0px;
+	border-bottom: solid 3px #0d77d4;
+	border-top: 3px solid #0d77d4;
+}
+
+.najposty
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	color: white;
+	text-align: center;
+	padding: 0px;
+}
+
+.najnowsze-posty
+{
+	border-bottom: solid 3px #0a55a2;
+	border-top: solid 3px #0a55a2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.najnowsze-posty-insta
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: solid 3px #0a55a2;
+	border-bottom: solid 3px #0a55a2;
+}
+
+.img1
+{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.img1:hover
+{
+	opacity: 3.0;
+}
+
+
